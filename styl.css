@@ -1,0 +1,36 @@
+
+body {
+  background-image: url('WhatsApp Image 2025-11-10 at 23.44.54_7a149b50.jpg'); 
+  background-size: cover;            
+  background-repeat: no-repeat;     
+  background-position: center;      
+  background-attachment: fixed;     
+  min-height: 100vh;                
+  margin: 0;                        
+  font-family: Arial, sans-serif;   
+  color: white;                   
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: left;
+}
+
+h1 {
+    color: #0077cc;
+	text-align: center; 
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: 3px solid #0077cc;
+    border-radius: 10px;
+}
