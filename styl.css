@@ -34,3 +34,39 @@ img {
     border: 3px solid #0077cc;
     border-radius: 10px;
 }
+/* On s'assure que toute la page s'organise bien */
+body {
+    position: relative;
+    min-height: 100vh; /* Permet à la page de faire au moins la taille de l'écran */
+    margin: 0;
+    padding-bottom: 40px; /* Laisse de la place en bas pour ne pas chevaucher la barre */
+}
+
+/* Ta barre de crédit */
+.barre-credit-bas {
+    background-color: #363534; /* Ta couleur */
+    width: 100%;
+    padding: 65px 0;
+    text-align: center;
+    
+    /* --- LE CHANGEMENT COMPLET EST ICI --- */
+    position: absolute;       /* Elle se positionne par rapport au fond du site */
+    bottom: 0;                /* Collée au pixel 0 du bas de la page */
+    left: 0;
+}
+
+.texte-credit {
+    color: #EFCE4A;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+.sd {
+    color: #C0C0C0;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+.rd {
+    color: #CD7F32;
+    font-size: 11px;
+    font-family: sans-serif;
+}
